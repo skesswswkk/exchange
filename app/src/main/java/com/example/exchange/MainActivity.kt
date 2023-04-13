@@ -169,33 +169,4 @@ class MainActivity : AppCompatActivity() {
         Log.d(TAG, stringTime.toString())
         binding!!.tv9.text = stringTime
     }
-//    fun onCheckboxClicked(view: View) {
-//        if (view is CheckBox) {
-//            val checked: Boolean = view.isChecked
-//
-//            when (view.id) {
-//                R.id.checkbox1 -> {
-//                    if (checked) {
-//                        R.id.checkbox2.setChecked(false);
-//                    } else {
-//
-//                    }
-//                }
-//                R.id.checkbox2 -> {
-//                    if (checked) {
-//
-//                    } else {
-//
-//                    }
-//                }
-//                R.id.checkbox3 -> {
-//                    if (checked) {
-//
-//                    } else {
-//
-//                    }
-//                }
-//            }
-//        }
-//    }
 }
